@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto Mono", monospace;
+  background-color: grey;
 }
 
 /* header */
@@ -31,4 +32,43 @@
 
 .text p {
   font-size: 18px;
+}
+
+/* social-media */
+
+.social {
+  margin: 10rem auto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.fa-brands {
+  color: white;
+  font-size: 10rem;
+  transition: 0.5s;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 0px 50px 75px 50px;
+}
+
+.fa-facebook:hover {
+  color: #1877f2;
+}
+
+.fa-instagram:hover {
+  /* color: #c32aa3; */
+  color: #e4405f;
+}
+.fa-linkedin:hover {
+  color: #0077b5;
+}
+.fa-youtube:hover {
+  color: #ff0000;
+}
+.fa-github:hover {
+  color: #333;
+}
+.fa-x-twitter:hover {
+  color: #000000;
 }
