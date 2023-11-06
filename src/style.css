@@ -6,6 +6,7 @@
   box-sizing: border-box;
   font-family: "Roboto Mono", monospace;
 }
+
 /* background-video */
 .background {
   width: 100vw;
@@ -45,10 +46,19 @@
   font-size: 18px;
 }
 
+.bio,
+.info {
+  color: white;
+}
+.info {
+  text-align: center;
+  margin: 10rem;
+}
+
 /* social-media */
 
 .social {
-  margin: 10rem auto;
+  margin: auto;
   width: 80%;
   display: flex;
   justify-content: center;
