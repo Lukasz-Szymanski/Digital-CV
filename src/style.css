@@ -26,6 +26,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background: rgb(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  width: fit-content;
+  border-radius: 20px;
 }
 .profile-img {
   width: 15rem;
@@ -48,11 +52,14 @@
 
 .bio,
 .info {
-  color: white;
+  color: rgb(16, 16, 16);
 }
 .info {
   text-align: center;
   margin: 10rem;
+  background: rgb(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
 }
 
 /* social-media */
