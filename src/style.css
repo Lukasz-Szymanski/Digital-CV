@@ -55,20 +55,22 @@
   color: rgb(16, 16, 16);
 }
 .info {
-  text-align: center;
-  margin: 10rem;
+  text-align: justify;
+  margin: 5rem auto;
+  padding: 5px;
   background: rgb(255, 255, 255, 0.3);
   backdrop-filter: blur(10px);
   border-radius: 20px;
+  width: 65rem;
 }
 
 /* social-media */
 
 .social {
-  margin: auto;
-  width: 80%;
+  margin: 10px auto;
   display: flex;
   justify-content: center;
+  align-items: flex-end;
 }
 
 .fa-brands {
