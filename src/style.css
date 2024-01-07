@@ -56,12 +56,30 @@
 }
 .info {
   text-align: justify;
-  margin: 5rem auto;
+  margin: 2rem auto;
   padding: 5px;
   background: rgb(255, 255, 255, 0.3);
   backdrop-filter: blur(10px);
   border-radius: 20px;
   width: 65rem;
+}
+
+/* projects */
+
+.projects {
+  width: 65rem;
+  height: 25vh;
+  padding: 5px;
+  background: rgb(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.projects a {
+  text-decoration: none;
+  color: #000000;
 }
 
 /* social-media */
