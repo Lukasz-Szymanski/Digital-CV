@@ -55,7 +55,7 @@
   color: rgb(16, 16, 16);
 }
 .info {
-  text-align: justify;
+  text-align: center;
   margin: 2rem auto;
   padding: 5px;
   background: rgb(255, 255, 255, 0.3);
